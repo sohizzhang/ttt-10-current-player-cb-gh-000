@@ -5,15 +5,7 @@ turn_count.each do |count|
   counter += 1
 end
 
-current_player = ["X", "O"]
-  if turn_count % 2 == 0
-    puts "X"
-  else
-    puts "O"
-  end
-end
-
-def current_player()
+current_player(turn_count)
   if turn_count % 2 == 0
     puts "X"
   else
