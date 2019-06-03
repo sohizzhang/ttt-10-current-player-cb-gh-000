@@ -1,6 +1,6 @@
 def turn_count("X", "O")
   
-end 
+end
 
 def current_player
-end 
+end
