@@ -5,9 +5,10 @@ turn_count.each do |count|
   counter += 1
 end
 
-def current_player
-  if turn_count % 2 == 0
+def current_player()
+  if turn_count % 2 == 0 
     print "X"
-  else
+  else 
     print "O"
-end
+  end 
+end 
