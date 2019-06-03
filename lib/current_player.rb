@@ -1,4 +1,4 @@
-def turn_count = ["X", "O"]
+def turn_count(board, array)
 counter = 0
 turn_count.each do |count|
   puts "#{count}"
