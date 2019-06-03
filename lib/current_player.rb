@@ -1,8 +1,10 @@
-def turn_count(board, array)
-counter = 0
-turn_count.each do |count|
-  puts "#{count}"
-  counter += 1
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+def turn_count(board)
+  counter = 0
+  board.each do |count|
+    counter += 1
+  end 
 end
 
 current_player(turn_count)
